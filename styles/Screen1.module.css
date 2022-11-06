@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap');
+.background{
+    @apply bg-black;
+    @apply h-[1080px] w-full left-[0px] top-[0px];
+}
+
+.text{
+    
+    @apply w-[499px] h-[72px] top-[526px] left-[1210px] text-white relative;
+    @apply not-italic font-medium text-[60px] leading-[70px];
+    font-family: 'Raleway', sans-serif;
+}
+
+.Rectangle{
+    @apply w-[692px] h-[692px] left-[18px] top-[150px] rounded-[10px] relative  ; 
+}
+
+.picture{
+    @apply w-[656px] h-[482.19px] top-[299px] left-[179px] ;
+}

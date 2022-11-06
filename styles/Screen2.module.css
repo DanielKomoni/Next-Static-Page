@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap');
+.background{
+    @apply bg-black relative ;
+    @apply h-[1080px] w-full left-[0px] top-[0px];
+}
+
+.text{
+    @apply h-[150px] top-[465px]  text-white absolute inset-y-0 left-[107px] w-[713px] ;
+    @apply not-italic font-medium text-[60px] leading-[70.44px];
+    font-family: 'Raleway', sans-serif;
+}
+.picture{
+    @apply left-[919px] relative ;
+}

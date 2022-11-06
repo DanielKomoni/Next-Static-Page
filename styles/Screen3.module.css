@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap');
+
+.background{
+    
+    background: linear-gradient(107.56deg, #FFEA00 0%, #E7D407 100%);
+    @apply h-[1080px] w-full left-[0px] top-[0px] relative   ; 
+}
+.header{
+    @apply h-[57px] top-[65px]  text-black absolute inset-y-0 left-[1071px] w-[760px];
+    @apply not-italic font-medium text-[40px] leading-[47px] text-center; 
+    font-family: 'Raleway', sans-serif;
+}
+.text{
+    @apply h-[120px] top-[361px]  text-black left-[53px] w-[762px] relative;
+    @apply not-italic font-medium text-[40px] leading-[47px] text-center; 
+    font-family: 'Raleway', sans-serif;
+}
+.formBorder{
+    @apply border border-black rounded-lg h-[784px] w-[717px] left-[1092px] top-[-280px] relative bg-black;
+}
+
+.button{
+    @apply bg-white text-black rounded-[15px] h-[57px] absolute inset-x-0 bottom-0 w-[140px] left-[290px] text-center ;
+    font-family: 'Raleway', sans-serif;
+    @apply not-italic font-medium text-[25px] leading-[29px]; 
+}
+
+.inputFlex{
+    @apply flex flex-col ;
+}
+.input{
+    @apply w-[623px] h-[57px] left-[46px] top-[66px] rounded-[15px] m-5 text-left;
+    font-family: 'Raleway', sans-serif;
+}
+.inputFirst{
+    @apply w-[623px] h-[57px] left-[46px] top-[66px] rounded-[15px] m-5 mt-[60px];
+    font-family: 'Raleway', sans-serif;
+}
+.inputLast{
+    @apply w-[623px] h-[350px] left-[46px] top-[66px] rounded-[15px] m-5 text-center;
+    font-family: 'Raleway', sans-serif;
+    @apply text-[40px]
+}
